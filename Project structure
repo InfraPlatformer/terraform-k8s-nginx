@@ -1,0 +1,9 @@
+/terraform-k8s-nginx
+├── /modules
+│   ├── k8s-cluster       # EKS/GKE cluster configs
+│   └── nginx-deployment # Reusable NGINX module
+├── main.tf              # Root module
+├── variables.tf         # Cluster size, region, etc.
+├── outputs.tf           # LB endpoint, kubeconfig
+├── README.md          
+└── /examples           # Different deployment scenarios
